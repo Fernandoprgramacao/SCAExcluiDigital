@@ -176,7 +176,7 @@ end;
 
 procedure TForm1.btnAbreSincronizadorClick(Sender: TObject);
 const
-  CaminhoExe = 'C:\SistemaSCA\SCA-sincronizador.exe';
+  CaminhoExe = 'Caminho';
 begin
   if not FileExists(CaminhoExe) then
   begin
@@ -355,7 +355,7 @@ begin
     FrmProg.Close;
     FrmProg.Free;
 
-    // 🔹 DESBLOQUEIA BOTOES E FECHAMENTO
+    // DESBLOQUEIA BOTOES E FECHAMENTO
   SetBotoes(True);
     FProcessandoExclusao := False;
   end;
