@@ -31,7 +31,7 @@ type
     lbQtd: TLabel;
 
     procedure FormCreate(Sender: TObject);
-    procedure FormClose(Sender: TObject; var Action: TCloseAction); // ⬅ AQUI
+    procedure FormClose(Sender: TObject; var Action: TCloseAction); 
     procedure btConectarClick(Sender: TObject);
     procedure btExcluirClick(Sender: TObject);
 
@@ -123,8 +123,6 @@ procedure TForm1.pnFecharClick(Sender: TObject);
 begin
   Close;
 end;
-
-
 
 procedure TForm1.pnMinimizarClick(Sender: TObject);
 begin
@@ -276,7 +274,7 @@ begin
   btCancelar.Enabled := Enable;
   btConectar.Enabled := Enable;
   btnAbrirSincronizador.Enabled := Enable;
-  // Adicione aqui outros botões que queira bloquear
+
 end;
 
 procedure TForm1.FormCloseQuery(Sender: TObject; var CanClose: Boolean);
