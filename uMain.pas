@@ -118,7 +118,6 @@ begin
   Action := caFree;
 end;
 
-
 procedure TForm1.pnFecharClick(Sender: TObject);
 begin
   Close;
@@ -164,7 +163,6 @@ begin
   PanelHoverLeave(Sender, $00E55D0D);
 end;
 
-
 procedure TForm1.pnTopoMouseDown(Sender: TObject; Button: TMouseButton;
   Shift: TShiftState; X, Y: Integer);
 begin
@@ -191,7 +189,6 @@ begin
     SW_SHOWNORMAL
   );
 end;
-
 
 function TForm1.ConectarBanco(const CaminhoBanco: string): Boolean;
 var
@@ -363,8 +360,6 @@ begin
 
   ShowMessage('Realize a sincronização no dispositivo.');
 end;
-
-
 
 end.
 
